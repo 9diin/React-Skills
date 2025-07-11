@@ -1,4 +1,4 @@
-// import { StrictMode } from "react";
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Ref from "./Ref";
 // import App from "./App.tsx";
@@ -7,7 +7,7 @@ import Ref from "./Ref";
 // import Average from "./Average";
 
 createRoot(document.getElementById("root")!).render(
-    // <StrictMode>
-    <Ref />
-    // </StrictMode>
+    <StrictMode>
+        <Ref />
+    </StrictMode>
 );
