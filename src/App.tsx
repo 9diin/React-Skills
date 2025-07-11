@@ -5,6 +5,7 @@ function App() {
     // useState는 가장 기본적인 Hook이며, 함수 컴포넌트에서도 가변적인 상태를 지닐 수 있게 해준다.
     // => 이 함수가 호출되면 배열을 반환한다. => 첫 번째 요소는 상태 값, 두 번째 요소는 상태를 설정하는 함수
     // => useState 함수의 파라미터에는 상태의 기본값을 넣어 줍니다.
+
     const [value, setValue] = useState<number>(0);
     const [name, setName] = useState<string>("");
     const [nickname, setNickname] = useState<string>("");

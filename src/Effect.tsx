@@ -39,7 +39,7 @@ function Effect() {
 
         return () => {
             console.log("cleanup");
-            console.log(name);
+            console.log(name); // ""
         };
     }, [name]);
 
